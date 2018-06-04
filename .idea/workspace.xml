@@ -12,59 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1582f499-5ce1-4a1f-958b-212d31f56761" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
-      <change beforePath="$PROJECT_DIR$/alikhtor.filler" afterPath="$PROJECT_DIR$/alikhtor.filler" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler.dir/sources/main1.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/filler" afterPath="$PROJECT_DIR$/cmake-build-debug/filler" />
       <change beforePath="$PROJECT_DIR$/filler.trace" afterPath="$PROJECT_DIR$/filler.trace" />
       <change beforePath="$PROJECT_DIR$/includes/filler.h" afterPath="$PROJECT_DIR$/includes/filler.h" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/libft.a" afterPath="$PROJECT_DIR$/libftprintf/libft/libft.a" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_atoi.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_atoi.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_bzero.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_bzero.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_isalnum.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_isalnum.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_itoa.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_itoa.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_lstadd.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_lstadd.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_lstdel.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_lstdel.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_lstdelone.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_lstdelone.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_lstiter.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_lstiter.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_lstmap.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_lstmap.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_lstnew.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_lstnew.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_memalloc.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_memalloc.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_memccpy.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_memccpy.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_memchr.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_memchr.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_memcmp.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_memcmp.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_memcpy.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_memcpy.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_memmove.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_memmove.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_memset.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_memset.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_putendl.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_putendl.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_putendl_fd.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_putendl_fd.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_putnbr.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_putnbr.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_putnbr_fd.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_putnbr_fd.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_putstr.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_putstr.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_putstr_fd.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_putstr_fd.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strcat.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strcat.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strcmp.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strcmp.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strcpy.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strcpy.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strdup.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strdup.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strequ.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strequ.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_striter.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_striter.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strjoin.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strjoin.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strlcat.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strlcat.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strlen.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strlen.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strmap.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strmap.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strmapi.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strmapi.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strncat.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strncat.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strncmp.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strncmp.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strncpy.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strncpy.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strnequ.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strnequ.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strnew.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strnew.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strnstr.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strnstr.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strstr.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strstr.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strsub.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strsub.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strtrim.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/ft_strtrim.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft/sources/get_next_line.c" afterPath="$PROJECT_DIR$/libftprintf/libft/sources/get_next_line.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libftprintf.a" afterPath="$PROJECT_DIR$/libftprintf/libftprintf.a" />
-      <change beforePath="$PROJECT_DIR$/objects/main.o" afterPath="$PROJECT_DIR$/objects/main.o" />
-      <change beforePath="$PROJECT_DIR$/sources/main.c" afterPath="$PROJECT_DIR$/sources/main.c" />
-      <change beforePath="$PROJECT_DIR$/test.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sources/main1.c" afterPath="$PROJECT_DIR$/sources/main1.c" />
+      <change beforePath="$PROJECT_DIR$/test" afterPath="$PROJECT_DIR$/test" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,14 +32,14 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.8104407">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.50132066">
+        <splitter split-orientation="horizontal" split-proportion="0.78077126">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file leaf-file-name="get_next_line.c" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/get_next_line.c">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="0">
-                      <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+                    <state relative-caret-position="541">
+                      <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
                       <folding>
                         <element signature="e#892#922#0" expanded="true" />
                       </folding>
@@ -93,11 +47,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="ft_strchr.c" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_strchr.c">
+              <file leaf-file-name="main1.c" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/sources/main1.c">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="240">
-                      <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                    <state relative-caret-position="663">
+                      <caret line="348" column="61" lean-forward="true" selection-start-line="348" selection-start-column="61" selection-end-line="348" selection-end-column="61" />
                       <folding />
                     </state>
                   </provider>
@@ -106,16 +60,6 @@
               <file leaf-file-name="ft_strnew.c" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_strnew.c">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="375">
-                      <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="ft_memset.c" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_memset.c">
-                  <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="300">
                       <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
                       <folding />
@@ -123,11 +67,51 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="main1.c" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/sources/main1.c">
+              <file leaf-file-name="ft_strnstr.c" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_strnstr.c">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="795">
-                      <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+                    <state relative-caret-position="180">
+                      <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="ft_strncpy.c" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_strncpy.c">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="180">
+                      <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="ft_memccpy.c" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_memccpy.c">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="0">
+                      <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="ft_memmove.c" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_memmove.c">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="0">
+                      <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="ft_strlcat.c" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_strlcat.c">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="180">
+                      <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
                       <folding />
                     </state>
                   </provider>
@@ -136,7 +120,7 @@
               <file leaf-file-name="ft_printf.c" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/libftprintf/sources/ft_printf.c">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="631">
+                    <state relative-caret-position="1680">
                       <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
                       <folding />
                     </state>
@@ -153,57 +137,25 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="ft_strcmp.c" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_strcmp.c">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="315">
-                      <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="ft_strdup.c" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_strdup.c">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="330">
-                      <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-                      <folding>
-                        <element signature="e#892#922#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="ft_atoi.c" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_atoi.c">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="315">
-                      <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
             </leaf>
           </split-first>
           <split-second>
-            <leaf>
-              <file leaf-file-name="test" pinned="false" current-in-tab="false">
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="test" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/test">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="555">
-                      <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+                    <state relative-caret-position="60">
+                      <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="test1" pinned="false" current-in-tab="true">
+              <file leaf-file-name="test1" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/test1">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="449">
-                      <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+                    <state relative-caret-position="495">
+                      <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
                       <folding />
                     </state>
                   </provider>
@@ -214,12 +166,12 @@
         </splitter>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="filler.h" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/includes/filler.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="465">
-                  <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+                <state relative-caret-position="360">
+                  <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
                   <folding>
                     <element signature="e#928#947#0" expanded="true" />
                   </folding>
@@ -283,9 +235,9 @@
         <option value="$PROJECT_DIR$/libftprintf/libft/sources/ft_strcpy.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/sources/main.c" />
-        <option value="$PROJECT_DIR$/test" />
-        <option value="$PROJECT_DIR$/includes/filler.h" />
         <option value="$PROJECT_DIR$/test1" />
+        <option value="$PROJECT_DIR$/includes/filler.h" />
+        <option value="$PROJECT_DIR$/test" />
         <option value="$PROJECT_DIR$/sources/main1.c" />
       </list>
     </option>
@@ -390,12 +342,6 @@
             <path>
               <item name="filler" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="filler" type="462c0819:PsiDirectoryNode" />
-              <item name="libftprintf" type="462c0819:PsiDirectoryNode" />
-              <item name="libft" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filler" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="filler" type="462c0819:PsiDirectoryNode" />
               <item name="sources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -448,12 +394,17 @@
       <workItem from="1527836498026" duration="3626000" />
       <workItem from="1527841545296" duration="13541000" />
       <workItem from="1527868811769" duration="1215000" />
-      <workItem from="1527942307747" duration="19221000" />
+      <workItem from="1527942307747" duration="19326000" />
+      <workItem from="1528092139076" duration="108000" />
+      <workItem from="1528092652680" duration="5302000" />
+      <workItem from="1528099495759" duration="10706000" />
+      <workItem from="1528118909155" duration="6000" />
+      <workItem from="1528133504872" duration="10328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37603000" />
+    <option name="totallyTimeSpent" value="64158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -465,7 +416,7 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5057143" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26043165" sideWeight="0.4942857" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38633093" sideWeight="0.4942857" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.49714285" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -487,25 +438,87 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="35" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sources/main1.c</url>
+          <line>333</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sources/main1.c</url>
+          <line>297</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="63" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="f-&gt;bf[0]" language="ObjectiveC" />
+        <watch expression="f-&gt;bf[1]" language="ObjectiveC" />
+        <watch expression="f-&gt;bf[2]" language="ObjectiveC" />
+        <watch expression="f-&gt;bf[3]" language="ObjectiveC" />
+        <watch expression="f-&gt;bf[4]" language="ObjectiveC" />
+        <watch expression="f-&gt;bf[5]" language="ObjectiveC" />
+        <watch expression="f-&gt;bf[6]" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>f-&gt;bf[6]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>f-&gt;bf[5]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>f-&gt;bf[4]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>f-&gt;bf[3]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>f-&gt;bf[2]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>f-&gt;bf[1]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>f-&gt;bf[0]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>f-&gt;token[3]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>f-&gt;token[0]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>f-&gt;token[2]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_putnbr.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_putstr.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_putstr_fd.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -528,13 +541,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_striter.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_strlcat.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
@@ -569,21 +575,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_strncpy.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_strnequ.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_strnstr.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
@@ -629,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,7 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,7 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,15 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_strnew.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,17 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/get_next_line.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding>
-            <element signature="e#892#922#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -806,9 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#892#922#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,15 +782,80 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_strnstr.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_strncpy.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_memccpy.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_memmove.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_strlcat.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/ft_strnew.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libftprintf/sources/ft_printf.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
+        <state relative-caret-position="1680">
           <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libftprintf/libft/sources/get_next_line.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="e#892#922#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -836,36 +867,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/includes/filler.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        <state relative-caret-position="360">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding>
             <element signature="e#928#947#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sources/main1.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        <state relative-caret-position="663">
+          <caret line="348" column="61" lean-forward="true" selection-start-line="348" selection-start-column="61" selection-end-line="348" selection-end-column="61" />
           <folding />
         </state>
       </provider>

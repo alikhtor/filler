@@ -19,17 +19,30 @@
 # include <stdlib.h>
 # include "../libftprintf/includes/ft_printf.h"
 
+typedef struct  s_point
+{
+    int         ret_x;
+    int         ret_y;
+    int         sum;
+    int         tmp_sum;
+    int         bot_touch;
+}               t_point;
+
 typedef struct	s_filler
 {
 	char		**bf;
     char        **token;
     char        bot;
 	char 		enemy;
+    int 		double_increment;
     int         field_x;
     int         field_y;
     int         tkn_x;
     int         tkn_y;
-	int 		double_increment;
+    int         extreme_x;
+    int         extreme_y;
+	t_point     *t_bot;
 }				t_filler;
+
 
 #endif
