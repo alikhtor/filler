@@ -6,7 +6,7 @@
 #    By: alikhtor <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/05/30 15:15:49 by alikhtor          #+#    #+#              #
-#    Updated: 2018/06/01 09:24:39 by alikhtor         ###   ########.fr        #
+#    Updated: 2018/06/06 21:09:01 by alikhtor         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,14 +23,18 @@ LIB_DIR := 			./libftprintf/
 
 # project source files
 
-SRC :=				main.c
+SRC :=				filler_main.c\
+					cut_token.c\
+					initiaize_and_draw.c\
+					surround_enemy.c\
+					token_processing.c
 
 OBJ := 				$(addprefix $(OBJ_DIR), $(SRC:.c=.o))
 
 # libraries
 
 LIBFT := 			$(LIB_DIR)libftprintf.a
-LIBFT_INC := 		$(LIB_DIR)includes/
+LIBFT_INC := 		$(LIB_DIR)inc/
 
 # compilation flags
 

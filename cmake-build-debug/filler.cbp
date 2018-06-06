@@ -83,223 +83,262 @@
 		<Unit filename="/Users/alikhtor/Desktop/filler/includes/filler.h">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/includes/ft_printf.h">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/inc/ft_printf.h">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/includes/libft.h">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/inc/libft.h">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_atoi.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/aditional_func/ft_factorial.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_bzero.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/aditional_func/ft_intlen_u.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_isalnum.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/aditional_func/ft_is_prime.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_isalpha.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/aditional_func/ft_itoa_base_u.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_isascii.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/aditional_func/ft_power.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_isdigit.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/aditional_func/ft_print_utf.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_isprint.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/aditional_func/ft_sqrt.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_itoa.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/aditional_func/ft_swap.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_lstadd.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/aditional_func/get_next_line.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_lstdel.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/lst_func/ft_lstadd.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_lstdelone.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/lst_func/ft_lstdel.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_lstiter.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/lst_func/ft_lstdelone.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_lstmap.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/lst_func/ft_lstiter.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_lstnew.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/lst_func/ft_lstmap.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_memalloc.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/lst_func/ft_lstnew.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_memccpy.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_itoa.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_memchr.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_memalloc.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_memcmp.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_memdel.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_memcpy.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_putchar.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_memdel.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_putchar_fd.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_memmove.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_putendl.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_memset.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_putendl_fd.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_putchar.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_putnbr.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_putchar_fd.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_putnbr_fd.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_putendl.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_putstr.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_putendl_fd.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_putstr_fd.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_putnbr.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_strclr.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_putnbr_fd.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_strdel.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_putstr.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_strequ.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_putstr_fd.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_striter.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strcat.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_striteri.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strchr.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_strjoin.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strclr.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_strmap.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strcmp.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_strmapi.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strcpy.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_strnequ.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strdel.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_strnew.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strdup.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_strsplit.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strequ.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_strsub.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_striter.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/non_standard_func/ft_strtrim.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_striteri.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_atoi.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strjoin.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_bzero.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strlcat.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_isalnum.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strlen.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_isalpha.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strmap.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_isascii.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strmapi.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_isdigit.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strncat.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_isprint.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strncmp.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_memccpy.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strncpy.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_memchr.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strnequ.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_memcmp.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strnew.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_memcpy.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strnstr.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_memmove.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strrchr.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_memset.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strsplit.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_strcat.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strstr.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_strchr.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strsub.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_strcmp.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_strtrim.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_strcpy.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_tolower.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_strdup.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/ft_toupper.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_strlcat.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/sources/get_next_line.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_strlen.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/sources/c_mod_part1.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_strncat.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/sources/d_i_mod_part1.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_strncmp.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/sources/d_i_mod_part2.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_strncpy.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/sources/flags_width_precision.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_strnstr.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/sources/ft_printf.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_strrchr.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/sources/o_mod_part1.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_strstr.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/sources/s_mod_part1.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_tolower.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/sources/secondary_functions_part1.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/libft/src/standard_func/ft_toupper.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/sources/secondary_functions_part2.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/src/additional_func.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/sources/u_mod_part1.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/src/ft_printf.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/sources/x_mod_part1.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/src/generate_res_func.c">
 			<Option target="filler"/>
 		</Unit>
-		<Unit filename="/Users/alikhtor/Desktop/filler/sources/main1.c">
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/src/print_res_func_1.c">
+			<Option target="filler"/>
+		</Unit>
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/src/print_res_func_2.c">
+			<Option target="filler"/>
+		</Unit>
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/src/read_flags.c">
+			<Option target="filler"/>
+		</Unit>
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/src/read_n_cast_1.c">
+			<Option target="filler"/>
+		</Unit>
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/src/read_n_cast_2.c">
+			<Option target="filler"/>
+		</Unit>
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/src/set_flag_func_1.c">
+			<Option target="filler"/>
+		</Unit>
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/src/set_flag_func_2.c">
+			<Option target="filler"/>
+		</Unit>
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/src/set_flag_func_3.c">
+			<Option target="filler"/>
+		</Unit>
+		<Unit filename="/Users/alikhtor/Desktop/filler/libftprintf/src/width_prec_func.c">
+			<Option target="filler"/>
+		</Unit>
+		<Unit filename="/Users/alikhtor/Desktop/filler/sources/cut_token.c">
+			<Option target="filler"/>
+		</Unit>
+		<Unit filename="/Users/alikhtor/Desktop/filler/sources/filler_main.c">
+			<Option target="filler"/>
+		</Unit>
+		<Unit filename="/Users/alikhtor/Desktop/filler/sources/initiaize_and_draw.c">
+			<Option target="filler"/>
+		</Unit>
+		<Unit filename="/Users/alikhtor/Desktop/filler/sources/surround_enemy.c">
+			<Option target="filler"/>
+		</Unit>
+		<Unit filename="/Users/alikhtor/Desktop/filler/sources/token_processing.c">
 			<Option target="filler"/>
 		</Unit>
 		<Unit filename="/Users/alikhtor/Desktop/filler/CMakeLists.txt">
