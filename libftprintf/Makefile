@@ -3,44 +3,51 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: agalavan <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: alikhtor <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2018/02/07 13:16:08 by agalavan          #+#    #+#              #
-#    Updated: 2018/02/07 13:16:10 by agalavan         ###   ########.fr        #
+#    Created: 2018/05/07 13:16:04 by alikhtor          #+#    #+#              #
+#    Updated: 2018/05/30 16:58:47 by alikhtor         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libftprintf.a
+# name of the executable file
+
+NAME :=			libftprintf.a
 
 # project directories
 
-SRC_DIR := ./src/
-OBJ_DIR := ./obj/
-INC_DIR := ./inc/
-LIB_DIR := ./libft/
+SRC_DIR :=		./sources/
+OBJ_DIR :=		./objects/
+INC_DIR :=		./includes/
+LIBFT_DIR :=	./libft/
 
 # project source files
 
-SRC =	ft_printf.c \
-		read_flags.c \
-		generate_res_func.c \
-		print_res_func_1.c \
-		print_res_func_2.c \
-		set_flag_func_1.c \
-		set_flag_func_2.c \
-		set_flag_func_3.c \
-		read_n_cast_1.c \
-		read_n_cast_2.c \
-		width_prec_func.c \
-		additional_func.c
+#
+# need to add all c files by name
+#
 
-OBJ = $(addprefix $(OBJ_DIR), $(SRC:.c=.o))
+SRC :=			ft_printf.c \
+				flags_width_precision.c \
+				x_mod_part1.c \
+				o_mod_part1.c \
+				u_mod_part1.c \
+				c_mod_part1.c \
+				s_mod_part1.c \
+				d_i_mod_part1.c \
+				d_i_mod_part2.c \
+				secondary_functions_part1.c \
+				secondary_functions_part2.c
+
+# project object files
+
+OBJ = 			$(addprefix $(OBJ_DIR), $(SRC:.c=.o))
 
 # libraries
 
-LIBFT = $(LIB_DIR)libft.a
-LIBFT_INC := $(LIB_DIR)inc/
-LIBFT_FLAGS := -lft -L $(LIB_DIR)
+LIBFT =			$(LIBFT_DIR)libft.a
+LIBFT_INC :=	$(LIBFT_DIR)includes/
+LIBFT_FLAGS :=	-lft -L $(LIBFT_DIR)
 
 # compilation flags
 
@@ -48,46 +55,44 @@ FLAGS := -Wall -Wextra -Werror -O3
 
 # linking flags
 
-LINK_FLAGS := $(LIBFT_FLAGS)
+LINK_FLAGS :=	$(LIBFT_FLAGS)
 
 # header flags
 
-HEADER_FLAGS := -I $(INC_DIR) -I $(LIBFT_INC)
+HEADER_FLAGS :=	-I $(INC_DIR) -I $(LIBFT_INC)
 
 # rules
 
 all: $(NAME)
 
 $(NAME): $(LIBFT) $(OBJ)
-		@ ar rc $(NAME) $(OBJ) libft/obj/standard_func/*.o \
-							libft/obj/non_standard_func/*.o \
-							libft/obj/lst_func/*.o \
-							libft/obj/aditional_func/*.o
-		@ ranlib $(NAME)
+	@ ar rc $(NAME) $(OBJ) libft/objects/*.o
+	@ ranlib $(NAME)
+#	@ printf "\e[32mLIBFTPRINTF DONE\n"
 
 $(OBJ): | $(OBJ_DIR)
 
 $(OBJ_DIR):
-		@ mkdir $(OBJ_DIR)
+	@ mkdir $(OBJ_DIR)
 
 $(OBJ_DIR)%.o: %.c
-		@ gcc -c $< -o $@ $(FLAGS) $(HEADER_FLAGS)
+	@ gcc -c $< -o $@ $(FLAGS) $(HEADER_FLAGS)
 
 $(LIBFT):
-		@ make -C $(LIB_DIR)
+	@ make -C $(LIBFT_DIR)
 
 clean:
-		@ rm -f $(OBJ)
-		@ make clean -C $(LIB_DIR)
+	@ rm -rf $(OBJ_DIR)
+	@ make clean -C $(LIBFT_DIR)
+#	@ printf "\e[33mCLEANING DONE\n"
 
-fclean: clean
-		@ rm -f $(NAME)
-		@ make fclean -C $(LIB_DIR)
-		@ rm -rf $(OBJ_DIR)
+fclean:
+	@ rm -f $(NAME)
+	@ rm -rf $(OBJ_DIR)
+	@ make fclean -C $(LIBFT_DIR)
+#	@ printf "\e[31mFULL CLEANING DONE\n"
 
 re: fclean all
-
-# special stuff
 
 vpath %.c $(SRC_DIR)
 

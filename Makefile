@@ -34,7 +34,7 @@ OBJ := 				$(addprefix $(OBJ_DIR), $(SRC:.c=.o))
 # libraries
 
 LIBFT := 			$(LIB_DIR)libftprintf.a
-LIBFT_INC := 		$(LIB_DIR)inc/
+LIBFT_INC := 		$(LIB_DIR)includes/
 
 # compilation flags
 

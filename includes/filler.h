@@ -17,7 +17,7 @@
 # include <fcntl.h>
 # include <unistd.h>
 # include <stdlib.h>
-# include "../libftprintf/inc/ft_printf.h"
+# include "../libftprintf/includes/ft_printf.h"
 
 typedef struct  s_point
 {

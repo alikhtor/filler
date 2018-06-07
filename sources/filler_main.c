@@ -6,7 +6,7 @@
 /*   By: alikhtor <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/06/06 22:19:05 by alikhtor          #+#    #+#             */
-/*   Updated: 2018/06/06 22:30:03 by alikhtor         ###   ########.fr       */
+/*   Updated: 2018/06/07 16:25:25 by alikhtor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,8 +74,8 @@ int				main(void)
 
 	f = (t_filler*)malloc(sizeof(t_filler));
 	f->t_bot = (t_point*)malloc(sizeof(t_point));
-	 fd = open("/Users/alikhtor/Desktop/filler/test", O_RDONLY);
-//	fd = 0;
+//	fd = open("/Users/alikhtor/Desktop/filler/test_files/test", O_RDONLY);
+	fd = 0;
 	get_next_line(fd, &str);
 	ft_initialize_enemy_and_bot(str, f);
 	free(str);
@@ -92,11 +92,11 @@ int				main(void)
 		if (f->t_bot->ret_y == 0 && f->t_bot->ret_x == 0)
 			break ;
 //		ft_free_map_and_token(f);
-		break ;
+//		break ;
 	}
-    fd = 0;
-    while (fd < f->field_y)
-        ft_printf("%s\n", f->bf[fd++]);
+//    fd = 0;
+//    while (fd < f->field_y)
+//    	ft_printf("%s\n", f->bf[fd++]);
 //    fd = open("/Users/alikhtor/Desktop/filler/leaks.txt", O_CREAT | O_WRONLY | O_TRUNC, 0644);
 //    dprintf(fd, "work =\n%s\n", str);
 //    free(f);
