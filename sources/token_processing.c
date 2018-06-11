@@ -6,26 +6,11 @@
 /*   By: alikhtor <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/06/05 15:37:53 by alikhtor          #+#    #+#             */
-/*   Updated: 2018/06/06 22:27:06 by alikhtor         ###   ########.fr       */
+/*   Updated: 2018/06/11 15:49:04 by alikhtor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/filler.h"
-
-void		ft_set_token_values(t_filler *f)
-{
-	f->t_bot->tmp_sum = 0;
-	f->t_bot->sum = 100000;
-	f->t_bot->bot_touch = 0;
-	f->t_bot->ret_x = 0;
-	f->t_bot->ret_y = 0;
-}
-
-static void	ft_make_zero(t_filler *f)
-{
-	f->t_bot->tmp_sum = 0;
-	f->t_bot->bot_touch = 0;
-}
 
 static int	ft_data_recording(int x, int y, t_filler *f)
 {
@@ -40,11 +25,17 @@ static int	ft_data_recording(int x, int y, t_filler *f)
 		f->t_bot->tmp_sum += (int)f->bf[y][x];
 	if (f->t_bot->bot_touch > 1 || enemy_touch)
 	{
-		ft_make_zero(f);
+		ft_eraise_tmp_sum(f);
 		return (1);
 	}
 	else
 		return (0);
+}
+
+static void	ft_check_y_coordinate(int y, int tmp_extreme_y, t_filler *f)
+{
+	if (y >= f->field_y && tmp_extreme_y == f->extreme_y)
+		ft_eraise_tmp_sum(f);
 }
 
 static void	ft_check_token_coordinates(int x, int y, t_filler *f)
@@ -73,8 +64,7 @@ static void	ft_check_token_coordinates(int x, int y, t_filler *f)
 		y++;
 		y_y++;
 	}
-	if (y >= f->field_y && tmp_extreme_y == f->extreme_y)
-		ft_make_zero(f);
+	ft_check_y_coordinate(y, tmp_extreme_y, f);
 }
 
 static void	ft_make_decision(int x, int y, t_filler *f)
@@ -84,11 +74,11 @@ static void	ft_make_decision(int x, int y, t_filler *f)
 		if (f->t_bot->tmp_sum <= f->t_bot->sum)
 		{
 			f->t_bot->sum = f->t_bot->tmp_sum;
-			f->t_bot->ret_x = x;
-			f->t_bot->ret_y = y;
+			f->ret_x = x;
+			f->ret_y = y;
 		}
 	}
-	ft_make_zero(f);
+	ft_eraise_tmp_sum(f);
 }
 
 void		ft_find_position_for_token(t_filler *f)

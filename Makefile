@@ -27,7 +27,8 @@ SRC :=				filler_main.c\
 					cut_token.c\
 					initiaize_and_draw.c\
 					surround_enemy.c\
-					token_processing.c
+					token_processing.c\
+					secondary_functions.c
 
 OBJ := 				$(addprefix $(OBJ_DIR), $(SRC:.c=.o))
 

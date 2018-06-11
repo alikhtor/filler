@@ -6,7 +6,7 @@
 /*   By: alikhtor <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/06/05 15:24:37 by alikhtor          #+#    #+#             */
-/*   Updated: 2018/06/05 15:49:35 by alikhtor         ###   ########.fr       */
+/*   Updated: 2018/06/11 16:07:01 by alikhtor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,14 @@
 void		ft_draw_token(int fd, t_filler *f)
 {
 	char	*str;
+	char	*step;
 	int		i;
 
 	get_next_line(fd, &str);
 	f->tkn_y = ft_atoi(str + 6);
-	f->tkn_x = ft_atoi(str + 6 + ft_strlen(ft_itoa(f->tkn_y)));
+	step = ft_itoa(f->tkn_y);
+	f->tkn_x = ft_atoi(str + 6 + ft_strlen(step));
+	ft_strdel(&step);
 	f->token = (char**)malloc(sizeof(char*) * (f->tkn_y + 1));
 	f->token[f->tkn_y] = 0;
 	free(str);
@@ -36,11 +39,14 @@ void		ft_draw_token(int fd, t_filler *f)
 void		ft_draw_battle_field(int fd, t_filler *f)
 {
 	char	*str;
+	char	*step;
 	int		i;
 
 	get_next_line(fd, &str);
 	f->field_y = ft_atoi(str + 8);
-	f->field_x = ft_atoi(str + 8 + ft_strlen(ft_itoa(f->field_y)));
+	step = ft_itoa(f->field_y);
+	f->field_x = ft_atoi(str + 8 + ft_strlen(step));
+	ft_strdel(&step);
 	f->bf = (char**)malloc(sizeof(char*) * (f->field_y + 1));
 	f->bf[f->field_y] = 0;
 	free(str);
