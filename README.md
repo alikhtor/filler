@@ -25,9 +25,9 @@ The winner is the one who scored more points.
 
 My Filler bot is divided into 3 parts:
 
-1. Read input data from VM. This functions can be found in src/main.c file. Also example of input data can be found in /test_files.
+1. Read input data from VM.
 
-2. Index all positions on the board according their distance from the opponent bot. File src/index_board_func.c.
+2. Index all positions on the board according their distance from the opponent bot.
 This is the most important part, to read more about this algorithm, google **"[taxicab geometry](https://en.wikipedia.org/wiki/Taxicab_geometry)"** or **"[chebyshev distance](https://en.wikipedia.org/wiki/Chebyshev_distance)"**, or in ukrainian **"[Манхеттенська метрика](https://uk.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BD%D1%85%D0%B5%D1%82%D1%82%D0%B5%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D0%BA%D0%B0)"** or **"[Відстань Чебишова](https://uk.wikipedia.org/wiki/%D0%92%D1%96%D0%B4%D1%81%D1%82%D0%B0%D0%BD%D1%8C_%D0%A7%D0%B5%D0%B1%D0%B8%D1%88%D0%BE%D0%B2%D0%B0)"**.
 Please find screenshot with example bellow.
 
@@ -35,7 +35,7 @@ Please find screenshot with example bellow.
 
 It looks like my bot surrounds opponent's territory in a circles with numbers from smaller to bigger and this numbers show minimum distance to touch the opponent.
 
-3. Find next move. File src/find_next_step.c.
+3. Find next move.
 
 For this purpose bot tries to place figure on each place on the board from the upper left to the down right and check whether this position is valid.
 
@@ -46,18 +46,16 @@ Valid position must respond the following rules:
 
 Than bot need to find **the best valid place**. It calculates all indexes which will be covered by figure and choose the one with the least number.
 
-For this reason it has additional structure *t_cpu* (can be found in inc/filler.h) where stored the best coordinates for next move.
-
 That's it!
 
-After all 3 steps bot can print result on stdout (via standard printf).
+After all 3 steps bot can print result on stdout via mine ft_printf (or via standard printf).
 
 ## FILE STRUCTURE OF PROJECT:
 
-At the root of the repository you can find */inc* folder where header file is stored.
+At the root of the repository you can find */includes* folder where header file is stored.
 There are prototypes of used functions and also prototypes of used structures.
 
-Also at the root you can find */src* folder where stored all main functions for this project.
+Also at the root you can find */sources* folder where stored all main functions for this project.
 
 All other folders are additional.
 
